@@ -1,11 +1,10 @@
 .container{
+   
     width: min(95%,1200px);
     margin: 0 auto;
 }
 
 #header{
-    
-    width: 100%;
     display: flex;
     align-content: center;
     align-items: center;
@@ -13,8 +12,10 @@
 }
 
 #logo{
-    display: flex;
+     display: flex;
      padding: 1%;
+     align-content: center;
+     align-items:center ;
 }
 
 #logo > h1{
@@ -24,8 +25,9 @@
 
 #header-img{
     width: auto;
-    height: auto;
-    padding: 5%;
+    height: 150%;
+    padding: 2%;
+
 }
 
 ul{
@@ -71,3 +73,5 @@ font: bolder;
     justify-content: center;
     margin-top: 55px;
 }
+
+@media (max-width: 600px) { .title { color: blue; } } 
