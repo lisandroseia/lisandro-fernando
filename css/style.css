@@ -1,0 +1,47 @@
+#header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+     padding: 1%;
+}
+
+#logo > h1{
+    font-size: 200%;
+    padding: 5%;
+}
+
+#header-img{
+    width: auto;
+    height: auto;
+    padding: 5%;
+}
+
+ul{
+    float: left;
+    display: flex;
+    column-gap: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(102, 97, 97);
+
+}
+
+ul,li{
+    list-style: none;
+    padding: 0px 35px;
+}
+
+a:hover{
+color: black;
+cursor: pointer;
+font: bolder;
+}
