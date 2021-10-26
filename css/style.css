@@ -1,15 +1,20 @@
 .container{
-   
     width: min(95%,1200px);
     margin: 0 auto;
 }
 
-#header{
+
+#header { 
+    position: fixed; 
+    width: 100%;
+     top: 0; 
+    left: 0; 
+    padding: 1em;
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: space-between;
-}
+} 
 
 #logo{
      display: flex;
@@ -74,4 +79,19 @@ font: bolder;
     margin-top: 55px;
 }
 
-@media (max-width: 600px) { .title { color: blue; } } 
+main{
+    margin-top: 150px;
+}
+
+#foot-container{
+    width: 100%;
+    background-color: rgb(202, 198, 198);
+    padding: 1% 0%;
+    margin-top: 100px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 600px) { .title { color: blue; } }
